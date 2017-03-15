@@ -1,0 +1,237 @@
+[
+    {
+        "Id": "86b27708a720f3085eaa00e5eab82a26631bb13c8c464d351c74cbcb5bd5f529",
+        "Created": "2017-03-15T01:16:06.327170981Z",
+        "Path": "/entrypoint.sh",
+        "Args": [
+            "mongod"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 26800,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2017-03-15T01:22:30.606342214Z",
+            "FinishedAt": "2017-03-15T01:21:40.637616788Z"
+        },
+        "Image": "sha256:686238c7a975c9dcb154be65a2ea761b79e4401990860ab11549281e92f2e442",
+        "ResolvConfPath": "/var/lib/docker/containers/86b27708a720f3085eaa00e5eab82a26631bb13c8c464d351c74cbcb5bd5f529/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/86b27708a720f3085eaa00e5eab82a26631bb13c8c464d351c74cbcb5bd5f529/hostname",
+        "HostsPath": "/var/lib/docker/containers/86b27708a720f3085eaa00e5eab82a26631bb13c8c464d351c74cbcb5bd5f529/hosts",
+        "LogPath": "/var/lib/docker/containers/86b27708a720f3085eaa00e5eab82a26631bb13c8c464d351c74cbcb5bd5f529/86b27708a720f3085eaa00e5eab82a26631bb13c8c464d351c74cbcb5bd5f529-json.log",
+        "Name": "/dharness_mongo_1",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "c4273eeba42eea62d94032c44a56084cd52991ff49992f26be88cdb6856cc45f:/data/configdb:rw",
+                "59485cfe4cc2055915d94339b5e1830789272b173fd65a326cfb216433ef0d49:/data/db:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "dharness_dylnet",
+            "PortBindings": {
+                "27017/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "27017"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": [],
+            "CapAdd": null,
+            "CapDrop": null,
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 2147483648,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "0",
+            "CpusetMems": "",
+            "Devices": null,
+            "DiskQuota": 0,
+            "KernelMemory": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": -1,
+            "MemorySwappiness": -1,
+            "OomKillDisable": false,
+            "PidsLimit": 0,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0
+        },
+        "GraphDriver": {
+            "Name": "overlay2",
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/d8a38b1a0a90231aaed37f93339676406d15e7c53011e574cb96162ae847f599-init/diff:/var/lib/docker/overlay2/5a63a252e3597a5df21c841633f0f6c67737370531c40d1fbd38007727eeb1d5/diff:/var/lib/docker/overlay2/9aca3ce600a3bf59f6532077744f55ab3278cfb36eb340321c7c7594b0bbdad7/diff:/var/lib/docker/overlay2/f1a195bc6d9a6a4ab5a3b1458478c35e4120b0ce8d52ce47af752b3a920bb1d4/diff:/var/lib/docker/overlay2/6c7cc3c006718c65a84a076e72a9a90cb7b927c5a5a58d19b5a497e8defefbe0/diff:/var/lib/docker/overlay2/583820d1b40213a3912255d924fe7c3bb8994f88ec10ed519dcf46644955852a/diff:/var/lib/docker/overlay2/2d40d7e0426be776ecbddbee317ccfd49ab0e24a4b51fbd6e1997fb4508ef129/diff:/var/lib/docker/overlay2/385155d00bff24666e1d1e5df0b8f5f3144fc3e6d3d0e32fb099f6084d6e957c/diff:/var/lib/docker/overlay2/71448c603ef6af871dcfc008e328c6317c8655137ff3ccfcd52839a38b8a987e/diff:/var/lib/docker/overlay2/20e4f361476a76d6c0ce32e40f308f0edc332db8cd4503ca862ac32220be0084/diff",
+                "MergedDir": "/var/lib/docker/overlay2/d8a38b1a0a90231aaed37f93339676406d15e7c53011e574cb96162ae847f599/merged",
+                "UpperDir": "/var/lib/docker/overlay2/d8a38b1a0a90231aaed37f93339676406d15e7c53011e574cb96162ae847f599/diff",
+                "WorkDir": "/var/lib/docker/overlay2/d8a38b1a0a90231aaed37f93339676406d15e7c53011e574cb96162ae847f599/work"
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "volume",
+                "Name": "c4273eeba42eea62d94032c44a56084cd52991ff49992f26be88cdb6856cc45f",
+                "Source": "/var/lib/docker/volumes/c4273eeba42eea62d94032c44a56084cd52991ff49992f26be88cdb6856cc45f/_data",
+                "Destination": "/data/configdb",
+                "Driver": "local",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": ""
+            },
+            {
+                "Type": "volume",
+                "Name": "59485cfe4cc2055915d94339b5e1830789272b173fd65a326cfb216433ef0d49",
+                "Source": "/var/lib/docker/volumes/59485cfe4cc2055915d94339b5e1830789272b173fd65a326cfb216433ef0d49/_data",
+                "Destination": "/data/db",
+                "Driver": "local",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "86b27708a720",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "27017/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "affinity:container==8b3fb76f8b5aa21870b9ecb982a1110ea0d80a59bcbbe34a7bd4e5012c91c620",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "GOSU_VERSION=1.7",
+                "GPG_KEYS=0C49F3730359A14518585931BC711F9BA15703C6",
+                "MONGO_MAJOR=3.4",
+                "MONGO_VERSION=3.4.2",
+                "MONGO_PACKAGE=mongodb-org"
+            ],
+            "Cmd": [
+                "mongod"
+            ],
+            "ArgsEscaped": true,
+            "Image": "mongo:3",
+            "Volumes": {
+                "/data/configdb": {},
+                "/data/db": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/entrypoint.sh"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "1e56e0788b76c62401f7c3d9e02730fdbc03b85b2cfcb0797ddacef06b5293fa",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "dharness",
+                "com.docker.compose.service": "mongo",
+                "com.docker.compose.version": "1.11.2"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "85d4007fbfb00c21d788b8d6052310f974bea9dfc1f0fb1b0927995438fd828e",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "27017/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "27017"
+                    }
+                ]
+            },
+            "SandboxKey": "/var/run/docker/netns/85d4007fbfb0",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "dharness_dylnet": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "86b27708a720",
+                        "mongo"
+                    ],
+                    "NetworkID": "f574266fe2639b6e09ad72a5afe359c477fcc3b34ef7e8f56e77cb55ec312569",
+                    "EndpointID": "466cf150718ee005885a214969b2e5a0fc5e8e91770c322e80f4acda0af9a3dc",
+                    "Gateway": "10.0.4.1",
+                    "IPAddress": "10.0.4.3",
+                    "IPPrefixLen": 24,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "02:42:0a:00:04:03"
+                }
+            }
+        }
+    }
+]

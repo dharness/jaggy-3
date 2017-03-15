@@ -1,0 +1,218 @@
+[
+    {
+        "Id": "ea2766f7fc97bb3a5738a6457d5fb267f5ef3c871bae481fcac82900b5cffe4c",
+        "Created": "2017-03-15T01:16:06.348563015Z",
+        "Path": "node",
+        "Args": [
+            "/usr/src/app/server.js"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 26774,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2017-03-15T01:22:30.592627782Z",
+            "FinishedAt": "2017-03-15T01:21:40.698540491Z"
+        },
+        "Image": "sha256:9ce5ffcd7728ca54e2c698fd56926bea5226b1cf526147d014a7cbc840a382d6",
+        "ResolvConfPath": "/var/lib/docker/containers/ea2766f7fc97bb3a5738a6457d5fb267f5ef3c871bae481fcac82900b5cffe4c/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/ea2766f7fc97bb3a5738a6457d5fb267f5ef3c871bae481fcac82900b5cffe4c/hostname",
+        "HostsPath": "/var/lib/docker/containers/ea2766f7fc97bb3a5738a6457d5fb267f5ef3c871bae481fcac82900b5cffe4c/hosts",
+        "LogPath": "/var/lib/docker/containers/ea2766f7fc97bb3a5738a6457d5fb267f5ef3c871bae481fcac82900b5cffe4c/ea2766f7fc97bb3a5738a6457d5fb267f5ef3c871bae481fcac82900b5cffe4c-json.log",
+        "Name": "/dharness_web_1",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/home/dharness/web/server.js:/usr/src/app/server.js:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "dharness_dylnet",
+            "PortBindings": {
+                "3000/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "3000"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": [],
+            "CapAdd": null,
+            "CapDrop": null,
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": null,
+            "GroupAdd": null,
+            "IpcMode": "",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 2147483648,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "0",
+            "CpusetMems": "",
+            "Devices": null,
+            "DiskQuota": 0,
+            "KernelMemory": 0,
+            "MemoryReservation": 0,
+            "MemorySwap": -1,
+            "MemorySwappiness": -1,
+            "OomKillDisable": false,
+            "PidsLimit": 0,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0
+        },
+        "GraphDriver": {
+            "Name": "overlay2",
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/d3d3930b02f1fea008a6fb40e907b28e244871cc61d94200093b31f76e4f7b67-init/diff:/var/lib/docker/overlay2/422fba063c636fb3508f4cd7e43ceac551c9214ed9f3a0acc097eb412ec5c60d/diff:/var/lib/docker/overlay2/7ee52b5970c28876403689c4213d6bf90210b587af16d49b290f7900aa9fbb60/diff:/var/lib/docker/overlay2/7762b50518d84e866a069b7f8df18b462bafc83d90b2cbb2c1f618e117bc20b4/diff:/var/lib/docker/overlay2/9df0204f5a2db4f97000897f1d2d8236bf3d618d446e59391e8a6d28bbbe97c9/diff:/var/lib/docker/overlay2/1d7dd489f57f3f878a82a9f2ec9628470a55dd37de5583f201e7a88d429ccd52/diff:/var/lib/docker/overlay2/205916cc19e55d1978633f4867c13ffb7205c6b2c959015e153951f62ed80c15/diff:/var/lib/docker/overlay2/4d92f3050790f449ef63c2466c270c17877f1341a1bede011af1888bbefbbfa5/diff:/var/lib/docker/overlay2/bb75c592ee18568c8c743323ed10179019ef82fce23b4ebd5bba95d35005052a/diff:/var/lib/docker/overlay2/0420ff7f7a54a796feb920b5efa9e87da8246b2d11fecf200b208b5a2363b61a/diff:/var/lib/docker/overlay2/20e4f361476a76d6c0ce32e40f308f0edc332db8cd4503ca862ac32220be0084/diff",
+                "MergedDir": "/var/lib/docker/overlay2/d3d3930b02f1fea008a6fb40e907b28e244871cc61d94200093b31f76e4f7b67/merged",
+                "UpperDir": "/var/lib/docker/overlay2/d3d3930b02f1fea008a6fb40e907b28e244871cc61d94200093b31f76e4f7b67/diff",
+                "WorkDir": "/var/lib/docker/overlay2/d3d3930b02f1fea008a6fb40e907b28e244871cc61d94200093b31f76e4f7b67/work"
+            }
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/home/dharness/web/server.js",
+                "Destination": "/usr/src/app/server.js",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": ""
+            }
+        ],
+        "Config": {
+            "Hostname": "ea2766f7fc97",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "3000/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "NPM_CONFIG_LOGLEVEL=info",
+                "NODE_VERSION=7.7.1",
+                "YARN_VERSION=0.21.3"
+            ],
+            "Cmd": [
+                "node",
+                "/usr/src/app/server.js"
+            ],
+            "Image": "dharness_web",
+            "Volumes": {
+                "/usr/src/app/server.js": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "18013f87d028a514283ae7aa85eb0824da2ca3183638773ae6d2d401f9ed4309",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "dharness",
+                "com.docker.compose.service": "web",
+                "com.docker.compose.version": "1.11.2"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "24502d4894f5a65c5294df81ccd8e51899349e4c31b30011d19f4d035583706f",
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "Ports": {
+                "3000/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "3000"
+                    }
+                ]
+            },
+            "SandboxKey": "/var/run/docker/netns/24502d4894f5",
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "dharness_dylnet": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "web",
+                        "ea2766f7fc97"
+                    ],
+                    "NetworkID": "f574266fe2639b6e09ad72a5afe359c477fcc3b34ef7e8f56e77cb55ec312569",
+                    "EndpointID": "2ccedd2a2bdef4ea50fbb2105ee668777b3a48b8993d8f6ad583fdee3f0f6dcf",
+                    "Gateway": "10.0.4.1",
+                    "IPAddress": "10.0.4.2",
+                    "IPPrefixLen": 24,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "MacAddress": "02:42:0a:00:04:02"
+                }
+            }
+        }
+    }
+]

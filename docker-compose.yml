@@ -1,0 +1,33 @@
+version: '2'
+
+services:
+  web:
+    build: ./web
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./web/server.js:/usr/src/app/server.js
+    command: node /usr/src/app/server.js
+    mem_limit: 2g
+    cpuset: "0"
+    networks:
+      - dylnet
+
+  mongo:
+    image: mongo:3
+    mem_limit: 2g
+    cpuset: "0"
+    ports:
+      - "27017:27017"
+    networks:
+      - dylnet
+
+networks:
+  dylnet:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 10.0.4.0/24
+          ip_range: 10.0.4.0/24
+          gateway: 10.0.4.1

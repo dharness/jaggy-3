@@ -1,0 +1,3 @@
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                      NAMES
+ea2766f7fc97        dharness_web        "node /usr/src/app..."   12 minutes ago      Up 5 minutes        0.0.0.0:3000->3000/tcp     dharness_web_1
+86b27708a720        mongo:3             "/entrypoint.sh mo..."   12 minutes ago      Up 5 minutes        0.0.0.0:27017->27017/tcp   dharness_mongo_1
